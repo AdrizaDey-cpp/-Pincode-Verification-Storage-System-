@@ -1,0 +1,1 @@
+Flask-based Pincode Verification API that checks all Indian pincodes from MySQL cache first, fetches missing data from the Postal Pincode API, stores city/state results in databasen, and returns fast JSON responses for verification requests.
