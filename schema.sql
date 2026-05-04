@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS pincodes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pincode VARCHAR(6) UNIQUE,
+    city VARCHAR(100),
+    state VARCHAR(100)
+);
